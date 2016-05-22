@@ -41,6 +41,6 @@ url2 = str(ip + "/22#" + pseudo + "*" + age + sexe + codeville + avatar + "0" + 
 
 r = requests.get(url2)
 
-url3 = str("35519201080" + "*" "0" "*" "0" "*" "0" "*" "192.168.1.1" "*" IPlocale + monpass)
+url3 = str("35519201080" + "*" + "0" + "*" + "0" + "*" + "0" + "*" + "192.168.1.1" + "*" + IPlocale + monpass)
 
 r = requests.get(url3)
