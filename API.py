@@ -41,10 +41,10 @@ url2 = str(ip + "/22#" + pseudo + "*" + age + sexe + codeville + avatar + "0" + 
 
 r = requests.get(url2)
 
-# réponse du serveur a passer dans des regex pour récuperer nickid et serveur_pass
+# réponse du serveur à passer dans des regex pour récuperer nickid et serveur_pass
 serveur_answer = r.text
 
-#TODO regex
+#Regex
 nickid =       # ?
 serveur_pass = # ?
 
