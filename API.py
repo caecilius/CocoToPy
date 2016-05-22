@@ -42,7 +42,7 @@ r = requests.get(r'http://jsonip.com')
 IpExterne = r.json()['ip']
 
 # TODO
-# Fonction pour chiffrer l'URL (https://bpaste.net/show/f5afa3a02692)
+# Fonction pour chiffrer l'URL (https://bpaste.net/show/9744211f8e4e)
 # Génération de l'URL chiffrée
 # Envoie de la requête GET
 # Formatage de la réponse
