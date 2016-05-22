@@ -41,6 +41,13 @@ url2 = str(ip + "/22#" + pseudo + "*" + age + sexe + codeville + avatar + "0" + 
 
 r = requests.get(url2)
 
-url3 = str("35519201080" + "*" + "0" + "*" + "0" + "*" + "0" + "*" + "192.168.1.1" + "*" + IPlocale + cookiepass)
+# réponse du serveur a passer dans des regex pour récuperer nickid et serveur_pass
+serveur_answer = r.text
+
+#TODO regex
+nickid =       # ?
+serveur_pass = # ?
+
+url3 = str("35519201080" + "*" + "0" + "*" + "0" + "*" + "0" + "*" + "192.168.1.1" + "*" + IPlocale + serveur_pass)
 
 r = requests.get(url3)
