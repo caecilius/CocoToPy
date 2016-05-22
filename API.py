@@ -3,29 +3,35 @@
 # première tentative de documenter l'API de coco.fr
 
 """
-                                        ..   :+`  
-                                   /o. .yh+./dm:  
-                                   /ddoymmmddms.  
-                                   `/hmmmmmmmy-   
-                                    `.smmmmddh.   
-                                     `/hyyyyys/.` 
-     `-:-...`....``                `:oshddhssshho-
-      ./osssoooossso:`            `/hyyyyyhyssso/.
-          ``````.-/ydo`          `/hdd+-----..``  
-                 .:yh+`          .yddo-           
-         ``.--:+osyo:. ``..--:::/:ddh::.``        
-     .:+oyyhhhys+:--:/+syyhhhdddhoddy-shys+:.`    
-  `:oyhdhyo+:-.``-+yhddddddddhhhohddo:hdddddho:`  
- -ohddh+:.``   `:ydddddhso+//:/ohddh:/yhddddddho- 
-.ydddd+.       .yddddds:-...:oydddd+-..:+ydddddds.
-/ddddd+`       -hdddddhyyyyhhddddh+-`  `-/ddddddy-
-:hddddh:`      `+hdddddddddddddhs/.     -/dddddd+-
-.odddddhs/.`    `-:+ssyyyyssso/-`   ``-/shdddddo-.
- -ohddddddhso/:..````......```..-:/+syhddddddh+-. 
-  .:oyhdddddddhhhyysssssssssyyhhhddddddddddy+:-`  
-   `.-:/oshdddddddddddddddddddddddddddhys+:-.`    
-      ``.--:/+oosyyhhhhdddhhhhyysso+/::--.`       
-           ```...----------------...```           
+                                                            
+                                               .-   `dh.    
+                                         :No` .mMh:.mMMo    
+                                         -MMNomMMMMNMMd/    
+                                          yNMMMMMMMMMm/     
+                                           /hMMMMMMMMd      
+                                            `NMMMMMMMM:     
+                                           .+NMMMMMMMMNy:`  
+       .yys+/::::::::-.`                 `oNMMMMMMMMMMMMMm. 
+        :ymNMMMMMMMMMNNms-              `yMMMMMMMMMMMMMMNh. 
+          `.-:/+ossydNMMMNo             sMMMMMMddddhyso/.`  
+                    `:MMMMN`           -MMMMMN:````         
+                 `.-/yMMMMs       ````.yMMMMMo              
+         `.:/osyhdmNMMMMm+.-:+oyhhdddmmMMMMMMds+:.`         
+      ./sdNMMMMMMMMMNdhsyhmNMMMMMMMMMMMMMMMMMMMMMNdy/.      
+    -smMMMMMMMMmdho/-omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMms-    
+  `sNMMMMMMNh+:.`  .dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN+   
+ `hMMMMMMMy-       dMMMMMMMMMNmhyydMMMMMMMMmdNMMMMMMMMMMMo  
+ /MMMMMMMd`       :MMMMMMMMMNhyyhNMMMMMMMMd.`-sMMMMMMMMMMN. 
+ sMMMMMMMd        -MMMMMMMMMMMMMMMMMMMMMMd.    dMMMMMMMMMM: 
+ /MMMMMMMMo.       oNMMMMMMMMMMMMMMMMMNd/`    .mMMMMMMMMMM: 
+ `mMMMMMMMMNy/.`    -ohmNNMMMMMMNNNmh+-  ``./ymMMMMMMMMMMm` 
+  :NMMMMMMMMMMMdyo/-.``.-://////::-..-/oyhmMMMMMMMMMMMMMm:  
+   :mMMMMMMMMMMMMMMMMNmmddddddddmmNNMMMMMMMMMMMMMMMMMMNy.   
+    `omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNy-     
+      `/yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+.       
+         `:ohmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNho:`          
+              `.:+osyddmNMMMMMMMMMNmmdhyso/-.               
+                                                            
 """
 
 import random
