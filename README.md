@@ -4,8 +4,8 @@ Client en Python pour le site coco.fr
 
 ***
 
-A documenter :
-* API
+En cours 
+* Documentation de l'API
 * Plan du site
 
 Notes :
