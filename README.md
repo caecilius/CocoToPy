@@ -1,4 +1,4 @@
-![CocoToPy](https://my.mixtape.moe/nsjces.svg)
+![CocoToPy](https://my.mixtape.moe/ydggui.svg)
 
 Client en Python pour le site coco.fr
 
