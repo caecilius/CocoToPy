@@ -4,7 +4,7 @@ Client en Python pour le site coco.fr
 
 ***
 
-En cours 
+En cours :
 * Documentation de l'API
 * Plan du site
 
