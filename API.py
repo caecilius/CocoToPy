@@ -6,6 +6,9 @@ import random
 import requests
 import re
 
+r = requests.get(r'http://jsonip.com')
+IPlocale = r.json()['ip']
+
 pseudo = "caecilius" # doit être en minuscule et de plus de 4 caractères
 age = "22"           # minimum "18"
 sexe = "1"           # "1" pour homme, "2" pour femme
@@ -29,11 +32,15 @@ cookie = r.cookies['samedi']
 
 # séparer la valeur "avatar" de la valeur "pass"
 avatar = re.match(r'\d*', cookie).group(0)     # récuperer la suite de chiffres au début de la chaine
-pass = re.match(r'\d*(\D*)', cookie).group(1)  # récuperer la chaine de caractères juste après
+monpass = re.match(r'\d*(\D*)', cookie).group(1)  # récuperer la chaine de caractères juste après
 
 ip = "62.210.198.99"      # pas certain si c'est la bonne ip
                           # autres IP : 94.23.213.192, 95.211.153.95, 87.98.168.15, 91.121.55.112, 87.98.162.169
 
-url2 = str(ip + "/22#" + pseudo + "*" + age + sexe + codeville + avatar + "0" + pass + "?" + salt)
+url2 = str(ip + "/22#" + pseudo + "*" + age + sexe + codeville + avatar + "0" + monpass + "?" + salt)
 
 r = requests.get(url2)
+
+url3 = str("35519201080" + "*" "0" "*" "0" "*" "0" "*" "192.168.1.1" "*" IPlocale + monpass)
+
+r = requests.get(url3)
