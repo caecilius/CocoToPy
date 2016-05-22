@@ -74,7 +74,7 @@ url3 = str("35519201080" + "*" + "0" + "*" + "0" + "*" + "0" + "*" + "192.168.1.
 # les variables pour le chiffrement
 var_n = str(35519201080*0*0*0*192.168.1.1*" + IPlocale)
 var_y = serveur_pass
-var_z = 0
+var_z = "0"
 
 """
 chiffrement (Offuscation ?) à convertir en Python 
