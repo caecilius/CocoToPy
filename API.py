@@ -2,38 +2,6 @@
 
 # première tentative de documenter l'API de coco.fr
 
-"""
-                                                            
-                                               .-   `dh.    
-                                         :No` .mMh:.mMMo    
-                                         -MMNomMMMMNMMd/    
-                                          yNMMMMMMMMMm/     
-                                           /hMMMMMMMMd      
-                                            `NMMMMMMMM:     
-                                           .+NMMMMMMMMNy:`  
-       .yys+/::::::::-.`                 `oNMMMMMMMMMMMMMm. 
-        :ymNMMMMMMMMMNNms-              `yMMMMMMMMMMMMMMNh. 
-          `.-:/+ossydNMMMNo             sMMMMMMddddhyso/.`  
-                    `:MMMMN`           -MMMMMN:````         
-                 `.-/yMMMMs       ````.yMMMMMo              
-         `.:/osyhdmNMMMMm+.-:+oyhhdddmmMMMMMMds+:.`         
-      ./sdNMMMMMMMMMNdhsyhmNMMMMMMMMMMMMMMMMMMMMMNdy/.      
-    -smMMMMMMMMmdho/-omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMms-    
-  `sNMMMMMMNh+:.`  .dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN+   
- `hMMMMMMMy-       dMMMMMMMMMNmhyydMMMMMMMMmdNMMMMMMMMMMMo  
- /MMMMMMMd`       :MMMMMMMMMNhyyhNMMMMMMMMd.`-sMMMMMMMMMMN. 
- sMMMMMMMd        -MMMMMMMMMMMMMMMMMMMMMMd.    dMMMMMMMMMM: 
- /MMMMMMMMo.       oNMMMMMMMMMMMMMMMMMNd/`    .mMMMMMMMMMM: 
- `mMMMMMMMMNy/.`    -ohmNNMMMMMMNNNmh+-  ``./ymMMMMMMMMMMm` 
-  :NMMMMMMMMMMMdyo/-.``.-://////::-..-/oyhmMMMMMMMMMMMMMm:  
-   :mMMMMMMMMMMMMMMMMNmmddddddddmmNNMMMMMMMMMMMMMMMMMMNy.   
-    `omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNy-     
-      `/yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh+.       
-         `:ohmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNho:`          
-              `.:+osyddmNMMMMMMMMMNmmdhyso/-.               
-                                                            
-"""
-
 import random
 import requests
 import re
