@@ -27,12 +27,12 @@ r = requests.get(url)
 url = str("http://www.coco.fr/chat/index.html#" \
 + pseudo + "_" + sexe + "_" + age + "_" + codeville + "_0_" + salt + "_" + referenz)
 
-# récupérer le cookie d'identification
+# récupérer le cookie d'identification "samedi"
 cookie = r.cookies['samedi']
 
 # supérarer la valeur "avatar" de la valeur "pass"
-avatar = re.match(r'\d*', cookie).group(0)
-pass = re.match(r'\d*(\D*), cookie).group(1)
+avatar = re.match(r'\d*', cookie).group(0)     # récuperer la suite de chiffres au début de la chaine
+pass = re.match(r'\d*(\D*)', cookie).group(1)  # récuperer la chaine de caractères juste après
 
 ip = ""      # ?
 
