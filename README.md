@@ -9,4 +9,4 @@ En cours :
 * Plan du site
 
 Notes :
-* Il devrait être possible de se passer du Flash car le site est fonctionnel par iPhone
+- [x] Il devrait être possible de se passer du Flash car le site est fonctionnel par iPhone (confirmé)
