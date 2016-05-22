@@ -30,17 +30,17 @@ r = requests.get(url)
 # récupérer la valeur du cookie d'identification "samedi"
 cookie = r.cookies['samedi']
 
-# séparer la valeur "avatar" de la valeur "pass"
-avatar = re.match(r'\d*', cookie).group(0)     # récuperer la suite de chiffres au début de la chaine
-monpass = re.match(r'\d*(\D*)', cookie).group(1)  # récuperer la chaine de caractères juste après
+# séparer la valeur "avatar" de la valeur "cookiepass"
+avatar = re.match(r'\d*', cookie).group(0)           # récuperer la suite de chiffres au début de la chaine
+cookiepass = re.match(r'\d*(\D*)', cookie).group(1)  # récuperer la chaine de caractères juste après
 
 ip = "62.210.198.99"      # pas certain si c'est la bonne ip
                           # autres IP : 94.23.213.192, 95.211.153.95, 87.98.168.15, 91.121.55.112, 87.98.162.169
 
-url2 = str(ip + "/22#" + pseudo + "*" + age + sexe + codeville + avatar + "0" + monpass + "?" + salt)
+url2 = str(ip + "/22#" + pseudo + "*" + age + sexe + codeville + avatar + "0" + cookiepass + "?" + salt)
 
 r = requests.get(url2)
 
-url3 = str("35519201080" + "*" + "0" + "*" + "0" + "*" + "0" + "*" + "192.168.1.1" + "*" + IPlocale + monpass)
+url3 = str("35519201080" + "*" + "0" + "*" + "0" + "*" + "0" + "*" + "192.168.1.1" + "*" + IPlocale + cookiepass)
 
 r = requests.get(url3)
