@@ -3,35 +3,29 @@
 # première tentative de documenter l'API de coco.fr
 
 """
-                                                ..    -+.   
-                                          -/`  `/y/` -hmo`  
-                                         `/mh/`/dmmy+hmmy.  
-                                          -hmdydmmmmmmms.   
-                                          `-smmmmmmmmmy-    
-                                            .:dmmmmmmmd-    
-                                             `smdhhyyys:`   
-                                            ./+syyyhyyhho/.`
-      `-o+/::---::::-.``                  `:sohddddyssoyhho-
-       `-/ossssoooossyys/`               `/hhsyyhhhhyyyso+:.
-           ````.....-:+hds.             `:hddh+:::::---..`  
-                     .-sdh:             -sddd+-`            
-                  ``-/shy/.            `:hddy-.             
-          ``.-://+syhys/-.```.--::/+++o++ddd+-:-.``         
-      `-/+syhhhdhys+/:---:+oyyhhhddddddoyddd::hhhyo/-.`     
-   `./shdddhys+/:-..`./shdddddddddddddy+dddy-+ddddddhy+-`   
-  -+ydddhs+:-.```  `:ydddddddhhyyssoooohdddo-ydddddddddh+-  
-`-sddddh/-.`      `:yddddddho/:-----/shdddh:-/+shdddddddds- 
--sdddddo-`        .sddddddh/:--.--/shddddh+-``.-:odddddddd+.
-:hddddds-         -ydddddddhyyyyyhddddddh+-`   `--yddddddds-
--hdddddh/`        .+hddddddddddddddddddy/-`     --yddddddd/-
--sddddddh+-`       `:syhhdddddddddhhys/.`     `.:odddddddo--
-`:ydddddddhs/-.`     `.-:/++++++//:-.`    `.-:+shddddddds--`
- `:shddddddddhyo+:-...````````````....-:/osyhdddddddddh+--. 
-  `-/shddddddddddddhyyssssoooossssyyhhddddddddddddddho:-.`  
-    .--/oshhddddddddddddddddddddddddddddddddddddhyo/--.`    
-      `.---:+osyhddddddddddddddddddddddddddhyso/:--.`       
-         ``.-----::/++oosssyyyyyysssoo++/::----..`          
-               ```....----------------....```               
+                                        ..   :+`  
+                                   /o. .yh+./dm:  
+                                   /ddoymmmddms.  
+                                   `/hmmmmmmmy-   
+                                    `.smmmmddh.   
+                                     `/hyyyyys/.` 
+     `-:-...`....``                `:oshddhssshho-
+      ./osssoooossso:`            `/hyyyyyhyssso/.
+          ``````.-/ydo`          `/hdd+-----..``  
+                 .:yh+`          .yddo-           
+         ``.--:+osyo:. ``..--:::/:ddh::.``        
+     .:+oyyhhhys+:--:/+syyhhhdddhoddy-shys+:.`    
+  `:oyhdhyo+:-.``-+yhddddddddhhhohddo:hdddddho:`  
+ -ohddh+:.``   `:ydddddhso+//:/ohddh:/yhddddddho- 
+.ydddd+.       .yddddds:-...:oydddd+-..:+ydddddds.
+/ddddd+`       -hdddddhyyyyhhddddh+-`  `-/ddddddy-
+:hddddh:`      `+hdddddddddddddhs/.     -/dddddd+-
+.odddddhs/.`    `-:+ssyyyyssso/-`   ``-/shdddddo-.
+ -ohddddddhso/:..````......```..-:/+syhddddddh+-. 
+  .:oyhdddddddhhhyysssssssssyyhhhddddddddddy+:-`  
+   `.-:/oshdddddddddddddddddddddddddddhys+:-.`    
+      ``.--:/+oosyyhhhhdddhhhhyysso+/::--.`       
+           ```...----------------...```           
 """
 import random
 import requests
