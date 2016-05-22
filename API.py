@@ -23,6 +23,6 @@ url = str("http://www.coco.fr/chat/index.html#" /
 
 
 valeur_du_cookie = str(pseudo + "%232" + "%2322" + "%23" + ville +             # Je n'ai pas encore compris comment
-                              "%2330932" + "%230" + "%23221017263" + "%23")    # les cookies fonctionnent
+                              "%2330932" + "%230" + "%23221017263" + "%23")    # les cookies fonctionnent sur le site
 
 r = requests.get(url, cookies = {'coda': valeur_du_cookie}) # le cookie d'identification est "coda"
