@@ -13,9 +13,9 @@ Avatar = str(random.randrange(164249067, 964249067))
 # Atribution des variables utilisateur
 
 Pseudo      = "Caecilius"  # Minimum 4 caractères
-Age         = "18"         # Minimum 18
+Age         = "22"         # Minimum 18
 Sexe        = "1"          # 1 pour homme et 2 pour femme
-CodePostal  = "69005"      # Uniquement en France
+CodePostal  = "75005"      # Uniquement en France
 
 # Récupération du CodeVille
 
