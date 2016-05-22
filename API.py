@@ -1,7 +1,37 @@
 #!/usr/bin/env python3
 
 # première tentative de documenter l'API de coco.fr
-
+"""
+                                                ..    -+.   
+                                          -/`  `/y/` -hmo`  
+                                         `/mh/`/dmmy+hmmy.  
+                                          -hmdydmmmmmmms.   
+                                          `-smmmmmmmmmy-    
+                                            .:dmmmmmmmd-    
+                                             `smdhhyyys:`   
+                                            ./+syyyhyyhho/.`
+      `-o+/::---::::-.``                  `:sohddddyssoyhho-
+       `-/ossssoooossyys/`               `/hhsyyhhhhyyyso+:.
+           ````.....-:+hds.             `:hddh+:::::---..`  
+                     .-sdh:             -sddd+-`            
+                  ``-/shy/.            `:hddy-.             
+          ``.-://+syhys/-.```.--::/+++o++ddd+-:-.``         
+      `-/+syhhhdhys+/:---:+oyyhhhddddddoyddd::hhhyo/-.`     
+   `./shdddhys+/:-..`./shdddddddddddddy+dddy-+ddddddhy+-`   
+  -+ydddhs+:-.```  `:ydddddddhhyyssoooohdddo-ydddddddddh+-  
+`-sddddh/-.`      `:yddddddho/:-----/shdddh:-/+shdddddddds- 
+-sdddddo-`        .sddddddh/:--.--/shddddh+-``.-:odddddddd+.
+:hddddds-         -ydddddddhyyyyyhddddddh+-`   `--yddddddds-
+-hdddddh/`        .+hddddddddddddddddddy/-`     --yddddddd/-
+-sddddddh+-`       `:syhhdddddddddhhys/.`     `.:odddddddo--
+`:ydddddddhs/-.`     `.-:/++++++//:-.`    `.-:+shddddddds--`
+ `:shddddddddhyo+:-...````````````....-:/osyhdddddddddh+--. 
+  `-/shddddddddddddhyyssssoooossssyyhhddddddddddddddho:-.`  
+    .--/oshhddddddddddddddddddddddddddddddddddddhyo/--.`    
+      `.---:+osyhddddddddddddddddddddddddddhyso/:--.`       
+         ``.-----::/++oosssyyyyyysssoo++/::----..`          
+               ```....----------------....```               
+"""
 import random
 import requests
 import re
