@@ -35,3 +35,13 @@ r = requests.get(url)
 
 Identifiant = re.search(r'#\d{2}(\d{6})', r.text).group(1)
 ServeurPass = re.search(r'#\d{2}\d{6}(\D{6})', r.text).group(1)
+
+# Récupération de l'IP externe
+
+r = requests.get(r'http://jsonip.com')
+IpExterne = r.json()['ip']
+
+# Génération de l'URL chiffrée
+
+url = str("52" + \
+str(Chiffrement("35519201080*0*0*0*192.168.1.1*" IpExterne, ServeurPass, 0)))
