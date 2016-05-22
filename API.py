@@ -65,7 +65,7 @@ TBeKBekhdNQjemQECelkQMOG31iMZ0NMZ0NjeBHhHXBJXwHGSWVlwWi
 FdXBIwMegz0VKQsDHgxMnfmKggJKn0fM');
 """
 
-#Regex
+# Regex
 nickid =       # ?
 serveur_pass = # ?
 
