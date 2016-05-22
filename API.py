@@ -32,7 +32,7 @@ avatar = re.match(r'\d*', cookie).group(0)     # récuperer la suite de chiffres
 pass = re.match(r'\d*(\D*)', cookie).group(1)  # récuperer la chaine de caractères juste après
 
 ip = "62.210.198.99"      # pas certain si c'est la bonne ip
-                           # autres IP : 94.23.213.192, 95.211.153.95, 87.98.168.15, 91.121.55.112, 87.98.162.169
+                          # autres IP : 94.23.213.192, 95.211.153.95, 87.98.168.15, 91.121.55.112, 87.98.162.169
 
 url2 = str(ip + pseudo + "*" + age + sexe + codeville + avatar + "0" + pass + "?" + salt)
 
