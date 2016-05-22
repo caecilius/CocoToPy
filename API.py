@@ -24,9 +24,6 @@ url = str("http://www.coco.fr/chat/index.html#" \
 
 r = requests.get(url)
 
-url = str("http://www.coco.fr/chat/index.html#" \
-+ pseudo + "_" + sexe + "_" + age + "_" + codeville + "_0_" + salt + "_" + referenz)
-
 # récupérer la valeur du cookie d'identification "samedi"
 cookie = r.cookies['samedi']
 
