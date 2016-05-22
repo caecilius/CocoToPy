@@ -4,6 +4,7 @@
 
 import random
 import requests
+import re
 
 pseudo = "caecilius" # doit être en minuscule et de plus de 4 caractères
 age = "22"           # minimum "18"
@@ -21,10 +22,20 @@ salt = str(random.randrange(100000000, 990000000)) # nombre aléatoir entre 1000
 url = str("http://www.coco.fr/chat/index.html#" \
 + pseudo + "_" + sexe + "_" + age + "_" + codeville + "_0_" + salt + "_" + referenz)
 
-
-valeur_du_cookie = str(pseudo + "%232" + "%2322" + "%23" + ville +             # Je n'ai pas encore compris comment
-                              "%2330932" + "%230" + "%23221017263" + "%23")    # les cookies fonctionnent sur le site
-cookie = {'coda': valeur_du_cookie}                                            # le cookie d'identification est "coda"
-
-
 r = requests.get(url)
+
+url = str("http://www.coco.fr/chat/index.html#" \
++ pseudo + "_" + sexe + "_" + age + "_" + codeville + "_0_" + salt + "_" + referenz)
+
+# récupérer le cookie d'identification
+cookie = r.cookies['samedi']
+
+# supérarer la valeur "avatar" de la valeur "pass"
+avatar = re.match(r'\d*', cookie).group(0)
+pass = re.match(r'\d*(\D*), cookie).group(1)
+
+ip = ""      # ?
+
+url2 = str(ip + pseudo + "*" + age + sexe + codeville + avatar + "0" + pass + "?" + salt)
+
+r = requests.get(url2)
