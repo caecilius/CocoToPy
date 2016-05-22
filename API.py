@@ -71,12 +71,13 @@ serveur_pass = # ?
 
 url3 = str("35519201080" + "*" + "0" + "*" + "0" + "*" + "0" + "*" + "192.168.1.1" + "*" + IPlocale + serveur_pass)
 
-n = str(35519201080*0*0*0*192.168.1.1*" + IPlocale)
-y = serveur_pass
-z = 0
+# les variables pour le chiffrement
+var_n = str(35519201080*0*0*0*192.168.1.1*" + IPlocale)
+var_y = serveur_pass
+var_z = 0
 
 """
-à convertir en Python 
+chiffrement (Offuscation ?) à convertir en Python 
 
 function enxo(n,y,z) {
     
