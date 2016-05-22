@@ -21,7 +21,7 @@ salt = str(random.randrange(100000000, 990000000)) # nombre aléatoir entre 1000
 url = str("http://www.coco.fr/chat/index.html#" + pseudo + "_" + sexe + "_" + age + "_" + codeville + "_0_" + salt + "_" + referenz)
 
 
-valeur = str(pseudo + %232 %2322 %23 ville %2330932 %230 %23221017263 %23) # Je n'ai pas encore compris comment
+valeur_du_cookie = str(pseudo + %232 %2322 %23 ville %2330932 %230 %23221017263 %23) # Je n'ai pas encore compris comment
                                                                            # les cookies fonctionnent
 
-r = requests.get(url, cookies = {'coda': valeur})
+r = requests.get(url, cookies = {'coda': valeur_du_cookie})
