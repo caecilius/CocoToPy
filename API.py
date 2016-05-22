@@ -24,12 +24,12 @@ CodeVille = re.search(r'(\d+)', r.text).group(1)
 
 # Génération de l'URL
 
-url = str("http://87.98.162.169/40" \
+URL = str("http://87.98.162.169/40" \
 +  Pseudo + "*" + Age + Sexe + CodeVille + Avatar + "0?" + Salt + "." + Salt2)
 
 # Envoie de la requête GET
 
-r = requests.get(url)
+r = requests.get(URL)
 
 # Récupération des variables d'identification avec des regex
 
@@ -42,6 +42,7 @@ r = requests.get(r'http://jsonip.com')
 IpExterne = r.json()['ip']
 
 # TODO
+# Fonction pour chiffrer l'URL (https://bpaste.net/show/f5afa3a02692)
 # Génération de l'URL chiffrée
 # Envoie de la requête GET
 # Formatage de la réponse
