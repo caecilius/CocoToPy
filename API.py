@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 # première tentative de documenter l'API de coco.fr
+
 """
                                                 ..    -+.   
                                           -/`  `/y/` -hmo`  
