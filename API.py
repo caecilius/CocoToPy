@@ -48,7 +48,7 @@ serveur_answer = r.text
 exemple de serveur_answer
 
 process1('#15238436uQzGlwASMDPAsSATBeKBekSGFBIAaDFH8fPW   "#15" ?  
-JKRgonIXWEGdamMWIeATWfKeQUBhWBLWpVEZQOJaIiDDxHUbxUEZQOJ   nickid = 6 premiers chiffres  (dans l'exemple "238436")
+JKRgonIXWEGdamMWIeATWfKeQUBhWBLWpVEZQOJaIiDDxHUbxUEZQOJ   nickid = 6 premiers chiffres après #15  (dans l'exemple "238436")
 aIiDDxHLXxMED0JIawUE3anIXWggz4DKfFKRhWnIXWggz4DKfEUBgoH   serveur_pass = 6 caractères juste après (dans l'exemple "uQzGlw")
 lbmKFZAOJARVBD0llXmQECelkQMOGGxKVAsSATBeKBejSGFBOXWFDCo
 nIXWggz4DP1FHTZiVMw1jGYWlUZQvPhanIXWggzIlKRogBd8OKCWgAT
