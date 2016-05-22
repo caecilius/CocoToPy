@@ -30,7 +30,7 @@ url = str("http://www.coco.fr/chat/index.html#" \
 # récupérer la valeur du cookie d'identification "samedi"
 cookie = r.cookies['samedi']
 
-# supérarer la valeur "avatar" de la valeur "pass"
+# séparer la valeur "avatar" de la valeur "pass"
 avatar = re.match(r'\d*', cookie).group(0)     # récuperer la suite de chiffres au début de la chaine
 pass = re.match(r'\d*(\D*)', cookie).group(1)  # récuperer la chaine de caractères juste après
 
