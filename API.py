@@ -18,7 +18,7 @@ referenz = "0"       # aucune idée de ce que ça fait, pour l'instant la valeur
 
 salt = str(random.randrange(100000000, 990000000)) # nombre aléatoir entre 100000000 et 990000000
 
-url = str("http://www.coco.fr/chat/index.html#" /
+url = str("http://www.coco.fr/chat/index.html#" \
 + pseudo + "_" + sexe + "_" + age + "_" + codeville + "_0_" + salt + "_" + referenz)
 
 
