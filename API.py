@@ -41,7 +41,7 @@ ServeurPass = re.search(r'#\d{2}\d{6}(\D{6})', r.text).group(1)
 r = requests.get(r'http://jsonip.com')
 IpExterne = r.json()['ip']
 
+# TODO
 # Génération de l'URL chiffrée
-
-url = str("52" + \
-str(Chiffrement("35519201080*0*0*0*192.168.1.1*", IpExterne, ServeurPass, 0), ServeurPass, 0))
+# Envoie de la requête GET
+# Formatage de la réponse
