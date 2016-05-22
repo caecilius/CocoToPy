@@ -15,7 +15,7 @@ codeville = "30929"  # à récuperer ici http://coco.fr/cocoland/foo.js par exem
 
 referenz = "0"       # aucune idée de ce que ça fait, pour l'instant la valeur est toujours "0"
 
-salt = str(random.randrange(100000000, 999999999)) # nombre aléatoir entre 100000000 et 999999999
+salt = str(random.randrange(100000000, 990000000)) # nombre aléatoir entre 100000000 et 990000000
 
 url = str("http://coco.fr#" + pseudo + "_" + sexe + "_" + age + "_" + codeville + "_0_" + salt + "_" + referenz)
 
