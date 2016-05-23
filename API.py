@@ -44,7 +44,7 @@ ServeurPass = re.search(r'#\d{2}\d{6}(\D{6})', r.text).group(1)
 # Récupération de l'IP externe
 
 r = requests.get(r'http://jsonip.com')
-IpExterne = r.json()['ip']
+ip_externe = r.json()['ip']
 
 # TODO
 # Fonction pour chiffrer l'URL (https://bpaste.net/show/f5afa3a02692)
