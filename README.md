@@ -2,11 +2,11 @@
 
 Client en Python pour le site coco.fr
 
+L'objectif du projet de faire un client solide en Python 3 sous licence MIT avec un code limpide et une IP Intégrallement documentée.
+
 ***
 
 En cours :
-* Documentation de l'API
-* Plan du site
-
-Notes :
-- [x] Il devrait être possible de se passer du Flash car le site est fonctionnel par iPhone (confirmé)
+* Ecriture de l'API
+* Ecriture de la fonction de chiffrement `enxo`
+* Création du plan du site
