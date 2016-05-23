@@ -1,6 +1,6 @@
 ![CocoToPy](https://my.mixtape.moe/sjokrz.svg)
 
-Client en Python pour le site coco.fr. :snake:
+Client en Python pour le site coco.fr.
 
 ***
 
