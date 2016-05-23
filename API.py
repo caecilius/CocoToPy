@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Documentation de l'API de coco.fr
+# Version 2
 # En cours d'écriture, non fonctionnelle pour l'instant
 # Nécessite le module requests
 
