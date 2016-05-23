@@ -4,7 +4,7 @@ Client en Python pour le site coco.fr.
 
 ***
 
-L'objectif du projet de faire un client solide en Python 3 sous licence MIT avec un code limpide et une IP Intégrallement documentée.
+L'objectif du projet de faire un client solide en Python 3 sous licence MIT avec un code limpide et une API Intégrallement documentée.
 
 En cours :
 * Ecriture de l'API
