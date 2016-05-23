@@ -9,6 +9,10 @@ import random
 import requests
 import re
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Identification
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 # Génération des valeurs aléatoires
 
 Salt   = str(random.randrange(19939050, 99939050))
@@ -51,3 +55,11 @@ IpExterne = r.json()['ip']
 # Génération de l'URL chiffrée
 # Envoie de la requête GET
 # Formatage de la réponse
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Liste des utilisateurs
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Discussion privée
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
