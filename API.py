@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# En cours d'écriture, non fonctionnelle pour l'instant
+
 import random
 import requests
 import re
