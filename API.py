@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 # En cours d'écriture, non fonctionnelle pour l'instant
+# Nécessite le module requests
 
 import random
 import requests
