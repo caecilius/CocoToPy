@@ -12,4 +12,4 @@ L'objectif du projet de faire un client solide en Python 3 sous licence MIT avec
 * Création du plan du site
 
 ## TODO
-* Implémentation de l'API dans un client dans la navigateur
+* Implémentation de l'API dans un client web
