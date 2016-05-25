@@ -18,11 +18,11 @@ avatar = str(random.randrange(164249067, 964249067))
 # Atribution des variables utilisateur
 
 pseudo       = "Caecilius"  # Minimum 4 caractères
-age          = "18"         # Minimum 18
+age          = "22"         # Minimum 18
 sexe         = "1"          # 1 pour homme et 2 pour femme
 code_postal  = "69005"      # Uniquement en France
 
-# Récupération du code_ville
+# Récupération de la variable code_ville
 
 r = requests.get(str("http://coco.fr/cocoland/" + code_postal + ".js"))
 code_ville = re.search(r'(\d+)', r.text).group(1)
@@ -30,7 +30,7 @@ code_ville = re.search(r'(\d+)', r.text).group(1)
 # Génération de l'URL
 
 serveur_url = str("http://87.98.162.169/40" \
-+  pseudo + "*" + age + sexe + codeVille + avatar + "0?" + salt + "." + salt2)
++  pseudo + "*" + age + sexe + code_ville + avatar + "0?" + salt + "." + salt2)
 
 # Envoie de la requête GET
 
@@ -38,8 +38,8 @@ r = requests.get(serveur_url)
 
 # Récupération des variables d'identification avec des regex
 
-Identifiant = re.search(r'#\d{2}(\d{6})', r.text).group(1)
-ServeurPass = re.search(r'#\d{2}\d{6}(\D{6})', r.text).group(1)
+identifiant = re.search(r'#\d{2}(\d{6})', r.text).group(1)
+serveur_pass = re.search(r'#\d{2}\d{6}(\D{6})', r.text).group(1)
 
 # Récupération de l'IP externe
 
